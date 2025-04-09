@@ -10,7 +10,7 @@ frase = "a chef of local hole"
 # Mostra resultado para cada palavra da frase
 for palavra in frase.split():
     if uses_only(palavra, permitidas):
-        print(f"'{palavra}' ✅ usa só letras permitidas")
+        print(f"'{palavra}'Utiliza só letras permitidas")
     else:
-        print(f"'{palavra}' ❌ usa letras proibidas")
+        print(f"'{palavra}'utiliza letras proibidas")
 
