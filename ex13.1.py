@@ -3,7 +3,7 @@ import string
 def processar_arquivo(nome_arquivo):
     palavras_processadas = []
 
-    with open(nome_arquivo, 'r') as arquivo:  # ← LINHA 5
+    with open(nome_arquivo, 'r') as arquivo: 
         for linha in arquivo:
             palavras = linha.strip().split()
 
@@ -13,4 +13,4 @@ def processar_arquivo(nome_arquivo):
                 if palavra:
                     palavras_processadas.append(palavra)
 
-    return palavras_processadas  # ← LINHA 18
+    return palavras_processadas 
