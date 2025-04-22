@@ -1,0 +1,5 @@
+2025-04-22 08:45:58,007 - meu_logger - DEBUG - Esta é uma mensagem de depuração.
+2025-04-22 08:45:58,007 - meu_logger - INFO - Esta é uma mensagem informativa.
+2025-04-22 08:45:58,007 - meu_logger - WARNING - Esta é uma mensagem de aviso.
+2025-04-22 08:45:58,007 - meu_logger - ERROR - Esta é uma mensagem de erro.
+2025-04-22 08:45:58,007 - meu_logger - CRITICAL - Esta é uma mensagem crítica.
